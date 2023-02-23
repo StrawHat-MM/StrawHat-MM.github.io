@@ -1,10 +1,112 @@
 <!DOCTYPE html>
-<html>
-     <head>
-          <title>StrawHat-MM Privacy Policy</title>
-     </head>
-     <body>
-    <h1>Privacy Policy</h1>
+<html lang="en">
+<head>
+<title>Privacy Policy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #E8E8E8;
+  color: white;
+}
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+/* Sidebar/left column */
+.side {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  background-color: #252627;
+  padding: 20px;
+  color: #d8d8d8;
+}
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #18191B;
+  padding: 20px;
+  color: #d8d8d8;
+}
+.fakeimg {
+  background-color: #18191B;
+  width: 100%;
+  padding: 20px;
+}
+
+.sideimg {
+  background-color: #252627;
+  width: 50%;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333333;
+  color: #d8d8d8;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="https://strawhat-mm.github.io/">Home</a>
+  <a href="https://strawhat-mm.github.io/AboutUs.html">About us</a>
+  <a href="https://strawhat-mm.github.io/PrivacyPolicy.html" class="active">PrivacyPolicy</a>
+</div>
+<div class="row">
+  <div class="main">
+  <h1>Privacy Policy</h1>
 
 
     <p>Effective date: February 22, 2023</p>
@@ -107,5 +209,10 @@
     <ul>
         <li>By email: strawhat.mm@gmail.com</li>
     </ul>
-     </body>
+  </div>
+</div>
+<div class="footer">
+  <h2>Powered by StrawHat</h2>
+</div>
+</body>
 </html>
